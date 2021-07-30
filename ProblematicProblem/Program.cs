@@ -18,7 +18,7 @@ namespace ProblematicProblem
             var activities = new List<string>() { "Movies,", "Paintball,", "Bowling,", "Lazer Tag,", "LAN Party,", "Hiking,", "Axe Throwing,", "Wine Tasting," };
 
             Console.Write("Hello, welcome to the random activity generator! \nWould you like to generate a random activity? yes/no: ");
-            //cont = bool.(Console.ReadLine());
+            
             var anwser = Console.ReadLine().ToLower();
             if (anwser == "yes")
             {
